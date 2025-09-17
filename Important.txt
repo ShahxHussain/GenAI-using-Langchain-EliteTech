@@ -1,0 +1,27 @@
+CREATE V env
+python -m venv name
+name\Scripts\Activate
+
+--------------------------------
+
+pip install langchain
+
+pip install dotenv
+
+pip install langchain-google-genai
+
+pip install langchain-together
+
+pip install langchain-huggingface
+pip install transformers
+
+------------------------------------
+
+pip install langchain-community
+
+pip install langchain_hub
+
+
+env
+
+
