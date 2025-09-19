@@ -22,6 +22,6 @@ pip install langchain-community
 pip install langchain_hub
 
 
-env
+pip install streamlit
 
 
