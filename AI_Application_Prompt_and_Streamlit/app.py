@@ -21,6 +21,7 @@ goal = st.selectbox("Select your Goal", ["Weight Loss", "Weight Gain", "Muscle G
 food_preferences = st.selectbox("Enter your Food Preferences", ["Vegetarian", "Non-Vegetarian", "Vegan"])
 plan = st.number_input("Enter number of days for the plan", min_value=1, max_value=30)
 
+
 prompt = f"""
 You are a certified fitness and diet coach. 
 You must follow the instructions carefully and stay within your expertise. 
