@@ -11,7 +11,6 @@ model = ChatGoogleGenerativeAI(
 
 # Schema
 class Review(BaseModel):
-
     summary: str = Field(description="Provide a summary of this review")
     sentiment: Literal["P+", "N-", "Neutral"] = Field (description= "Return Sentiment fo the review")
     name: Optional[list[str]] = Field(description="Return name of the reviewer", default=None)
