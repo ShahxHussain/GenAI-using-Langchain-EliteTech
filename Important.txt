@@ -25,4 +25,6 @@ pip install langchain_hub
 pip install streamlit
 pip install pydantic
 
+pip install pypdf
+
 

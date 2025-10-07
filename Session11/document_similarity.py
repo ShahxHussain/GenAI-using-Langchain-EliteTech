@@ -38,3 +38,8 @@ index , score = (sorted(list(enumerate(scores)), key=lambda x: x[1])[-1]) # this
 print(query)
 print(documents[index])
 print("Similarity Score is: ", score)
+
+# Document_loaders
+
+# Text_Splitter #vecrors DBs
+#
